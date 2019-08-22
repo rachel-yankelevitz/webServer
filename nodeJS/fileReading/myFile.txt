@@ -1,0 +1,16 @@
+Hi Merchant, Welcome to the Forter API!
+
+Forter’s system provides instant approve/decline decisions for every single transaction on your website. It is able to do this partly through leveraging the power of big data through machine learning. Because of this, the data that our system will receive as a result of the integration process is enormously valuable. Every piece of information contributes to building up an accurate picture of each transaction and each customer, and ensuring that Forter’s system blocks fraudulent orders while never inconveniencing good customers.
+
+The goal of the Integration section is to detail the technical integration process and the data requirements that are needed in order to launch Forter’s decision engine for your transactions. It is our aim to make the process of integrating with Forter as smooth and clear as possible. If you do have any queries or feedback, please do not hesitate to reach out to our onboarding team.
+
+The integration is made up of 3 primary components:
+
+JavaScript integration - copying and pasting a JavaScript snippet onto every page of your website
+
+Backend API integration - integrating with Forter’s backend APIs so that your system sends us the necessary information and updates and receives our fraud decisions, and so your system handles chargebacks easily so that we can reimburse you promptly, etc.
+
+Mobile application integration - Forter provides instant fraud decisions for mobile transactions. Because the information available from native mobile applications is different from web applications, it requires its own integration process.
+
+The keyword is french fry.
+The API request for Forter's approve/decline decision should be sent after completing the authorization from the payment gateway and before making the request to the payment gateway to capture the funds. The decision will be received instantly at the time of the purchase, so that the customer is never even aware that they were evaluated - contributing to a friction-free checkout experience.
